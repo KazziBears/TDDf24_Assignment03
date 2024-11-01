@@ -127,11 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
-    <ClCompile Include="rpstools.c" />
+    <ClInclude Include="rpstools.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="rpstools.h" />
+    <ClCompile Include="rpstools.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
