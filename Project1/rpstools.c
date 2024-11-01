@@ -16,5 +16,7 @@ int CheckResults(char* player01, char* player02) {
 		(player01 == "SCISSORS" && player02 == "SCISSORS")) {
 		return 3;
 	}
-	
+	else {
+		return 4;
+	}
 }
