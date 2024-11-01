@@ -37,5 +37,17 @@ namespace rpstoolsTests
 			//Assert
 			Assert::AreEqual(expected, actual);
 		}
+		TEST_METHOD(CheckResultsTestC) {
+			//Arrange
+			char* player01 = "SCISSORS";
+			char* player02 = "SCISSORS";
+			int expected = 3;
+
+			//Act
+			int actual = CheckResults(player01, player02);
+
+			//Assert
+			Assert::AreEqual(expected, actual);
+		}
 	};
 }
